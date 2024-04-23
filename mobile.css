@@ -81,12 +81,21 @@ ul {
   margin: 10px;
 }
 
+.projects-container {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .projects {
   width: 100%;
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-bottom: 120px;
 }
 
@@ -147,7 +156,7 @@ ul {
   margin: 0;
 }
 
-.h2.footer {
+.h2.footer-title {
   margin: 0;
   margin-bottom: 15px;
 }
