@@ -79,6 +79,8 @@ ul {
 .icon-large {
   width: 40px;
   margin: 10px;
+  margin-left: 14px;
+  margin-right: 14px;
 }
 
 .projects-container {
@@ -143,9 +145,15 @@ ul {
 }
 
 .project-items {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+.icon-small {
+  width: 26px;
+  margin: 10px;
 }
 
 .h2.project-title {
@@ -154,6 +162,12 @@ ul {
   left: -15px;
   color: white;
   margin: 0;
+}
+
+.project-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .h2.footer-title {
@@ -204,7 +218,13 @@ ul {
 }
 
 .contact-info {
-  margin: 20px;
+  margin: 0px;
+}
+
+.h4 {
+  margin: 0px;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 
 .icon-medium.phone,
